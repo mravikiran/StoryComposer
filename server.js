@@ -8,7 +8,7 @@ var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
 var server =  http.createServer(
 function(request, response){
 	response.writeHead(200, {"Content-Type": "text/plain"});
-	response.write("Will we ever get rid of hello world added by aviator009");
+	response.write("Will we ever get rid of hello world added by aviator009 and ravi");
 	response.end();
 }
 );
